@@ -1,0 +1,19 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "express": "^4.17.1",
+    "module_name": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
